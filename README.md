@@ -1,0 +1,3 @@
+# Haskell Polymorphic Function Type Mismatch
+
+This repository demonstrates a common error in Haskell involving polymorphic functions and type mismatches.  The `bug.hs` file contains code that attempts to use a polymorphic function to perform different operations on different data types. However, it fails to gracefully handle cases where the input type is unexpected, resulting in runtime errors. The solution in `bugSolution.hs` addresses this issue using more robust type handling.
